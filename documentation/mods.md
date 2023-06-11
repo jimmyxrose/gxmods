@@ -49,7 +49,16 @@ Only one shader can be active at a time, which is controlled by the user.
 
 ### Web modding
 
-These are CSS styles that can be applied to web pages. Multiple pages can be modified with a single mod. Opera GX exposes primary and secondary color if you want to make web pages follow UI colors (see [opera.css](Mod_Template/webmodding/opera.css))
+These are CSS styles that can be applied to web pages. Multiple pages can be modified with a single mod. Opera GX exposes primary and secondary color if you want to make web pages follow UI colors (see [opera.css](Mod_Template/webmodding/opera.css)). For custom scrollbar you may use this [scroll.css](Mod_Template/webmodding/scroll.css)
+
+To apply for all websites pages, use this example inside manifest.json:
+
+    "matches":
+    [
+		"https://*/*",
+		"http://*/*"
+
+    ]
 
 # Guildelines
 
