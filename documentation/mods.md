@@ -57,7 +57,6 @@ To apply for all websites pages, use this example inside manifest.json:
     [
 		"https://*/*",
 		"http://*/*"
-
     ]
 
 # Guildelines
